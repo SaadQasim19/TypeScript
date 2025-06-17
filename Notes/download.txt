@@ -16,5 +16,3 @@ npm init -y                          # Step 1: Initialize project ( package.json
 npm install --save-dev typescript   # Step 2: Install TS locally
 npx tsc --init                      # Step 3: Create tsconfig.json
 
-
-https://github.com/SaadQasim19/TypeScript
