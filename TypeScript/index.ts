@@ -8,19 +8,7 @@ let a: number = 10;
 let b: string = "saad";
 console.log(a);
 
-//^ Functions declaration:
-//& JavaScript:
-// function add(x,y){return x+y;}
-// const add = (a,b)=>{return a+b;};
 
-//& TypeScript:
-function add(x: number, y: number): number {
-  return x + y;
-}
-
-const addArrow = (a: number, b: number): number => {
-  return a + b;
-};
 
 //^ Arrays
 //& JavaScript:
@@ -117,3 +105,4 @@ let personData: { name: string, age: number } = { name: "Ali", age: 30 };
 for (let key in personData) {
     console.log(`${key}: ${personData[key as keyof typeof personData]}`);
 }
+
